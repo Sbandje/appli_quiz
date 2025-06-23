@@ -19,7 +19,7 @@ document.getElementById('name').addEventListener('submit' ,
 
         document.getElementById('resultat').innerHTML = result;
         alert("Votre inscription a été enregistré avec succès" ,result);
-        window.location.href = "file:///C:/Users/hp/Desktop/appli_quiz/index2.html"
+         window.location.href = "./index2.html";
 
     }else{
         alert("vous n'êtes pas éligible, vous devez avoir 15 et 25 ans")

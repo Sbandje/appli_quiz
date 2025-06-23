@@ -40,7 +40,7 @@
         if (countdown <= 0 || currentQuestionIndex === 19) {
             clearInterval(interval);
             countdownElement.textContent = "Temps écoulé !";
-             window.location.href = "file:///C:/Users/hp/Desktop/appli_quiz/index3.html"
+             window.location.href = "./index3.html"
         }
     }, 1000);
 
